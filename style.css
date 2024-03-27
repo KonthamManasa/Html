@@ -1,0 +1,76 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body
+{
+	height: 100%;
+	background-color: rgb(205,170,120);
+}
+.login-page
+{
+	width: 400px;
+	position: absolute;
+	top:20%;
+	left: 40%;
+	padding: 40px;
+	box-shadow: 0 0 20px rgb(218, 102, 102);
+	background-color: #fff;
+	transform: translate(-20%, -20%);
+}
+.login-page h2
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.input-box
+{
+	margin-bottom: 10px;
+}
+.input-box input
+{
+	width: 100%;
+	font-size: 16px;
+	padding: 12px;
+	border: 0;
+	background: rgb(77,236,231);
+	background: linear-gradient(90deg, rgba(77,236,231,1) 0%, rgba(16,227,214,1) 35%, rgba(0,212,255,1) 100%);
+	outline: none;
+}
+.login-page button
+{
+	width: 100%;
+	font-size: 15px;
+	padding: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: rgb(204, 110, 80);
+	border: 0;
+	color: #ffff;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-bottom: 10px;
+	transition: all 1s ease-out;
+}
+
+.login-page button:hover
+{
+	background-color: rgb(205,95,80,0.5);
+}
+.login-page p
+{
+	color:burlywood;
+	font-size: 12px;
+}
+.login-page p a
+{
+	text-decoration: none;
+	color:brown;
+}
+.registration-form
+{
+	display: none;
+}
